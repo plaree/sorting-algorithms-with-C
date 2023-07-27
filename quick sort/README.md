@@ -11,4 +11,8 @@ Rekürsif Sıralama: İki alt küme, pivot elemanın konumu üzerinden ayrı ayr
 
 Birleştirme (Merge) İşlemi: Alt kümeler, sıralanmış halleriyle birleştirilerek orijinal veri kümesini oluşturur.
 
+Hızlı sıralamanın zaman karmaşıklığı en iyi durumda O(n log n), ortalama ve en kötü durumlarda ise O(n^2) olabilir. Ancak çoğunlukla ortalama durumda hızlı ve etkili çalıştığı için tercih edilir. Eğer pivot eleman düzenli bir şekilde seçilemezse (örneğin, her zaman en küçük veya en büyük eleman seçilirse), en kötü durum karmaşıklığı ortaya çıkabilir. Ancak iyi tasarlanmış bir pivot seçimi algoritması, bu durumu büyük ölçüde azaltabilir ve ortalama durumda hızlı sıralama algoritması oldukça başarılı bir şekilde çalışır.
+
+Hızlı sıralama, veri kümesinin boyutuna bağlı olmaksızın genellikle verimli bir sıralama algoritmasıdır. Ancak bellek yönetimi ve pivot seçimi gibi konularda dikkatli olunması gerekebilir.
+
 ![quick_sort_partition_animation](https://github.com/plaree/sorting-algorithms-with-C/assets/57459021/54ddab99-0f12-41ed-8c0b-05a3b1008178)
